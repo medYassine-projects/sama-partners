@@ -1,0 +1,42 @@
+img {
+  height: 200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile-pic-div {
+  height: 200px;
+  width: 200px;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid;
+}
+
+#photo {
+  height: 200px;
+  width: 200px;
+}
+
+#file {
+  display: none;
+}
+
+#uploadBtn {
+  height: 40px;
+  width: 200px;
+  bottom: 0;
+  transform: translateX(0%) translateY(-100%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  color: wheat;
+  line-height: 30px;
+  font-family: sans-serif;
+  font-size: 10px;
+  cursor: pointer;
+}
